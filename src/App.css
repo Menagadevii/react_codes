@@ -1,4 +1,4 @@
-.App {
+ /* .App {
   text-align: center;
 }
 
@@ -35,4 +35,20 @@
   to {
     transform: rotate(360deg);
   }
-}
+} 
+   */
+
+   #h{
+    background-color: blue;
+    width :200px;
+    height :250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+    text-align: center;
+    background-image: url("C:\Users\SightSpectrum\Pictures\Saved Pictures/nature1.jpg");
+   }
+
+   .Aa{
+    background-color: aqua;
+    color: orange;
+   }
