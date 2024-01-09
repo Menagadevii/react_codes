@@ -30,6 +30,9 @@ import ClassTimer, { FocusInput, HookTimer } from "./component/UseRef";
 import DocTitleOne, { DocTitleTwo } from "./component/Usedocumenttitle";
 import CounterOne, { CounterTwo } from "./component/Usecounter";
 import Useinput from "./component/Useinput";
+import Renderusestate from "./component/Renderusestate";
+import Usereducer from "./component/Usereducer";
+import Immutability, { Immutability2 } from "./component/Immutability";
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
 
@@ -43,9 +46,12 @@ function App() {
     //   </UserContext.Provider>
     //   </div>
     <div>
-     <Useinput/>
-     
-      {/* <CounterOne/>
+      <Immutability2/>
+      {/* <Immutability/> */}
+      {/* <Usereducer/> */}
+      {/* <Renderusestate/> */}
+     {/* <Useinput/> */}
+     {/* <CounterOne/>
       <CounterTwo/> */}
      {/* <DocTitleOne/>
      <DocTitleTwo/> */}
