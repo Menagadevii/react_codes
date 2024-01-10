@@ -33,6 +33,10 @@ import Useinput from "./component/Useinput";
 import Renderusestate from "./component/Renderusestate";
 import Usereducer from "./component/Usereducer";
 import Immutability, { Immutability2 } from "./component/Immutability";
+import Parentchild, { Child } from "./component/Parentchild";
+import Sameelement, { Grandparent, Sameelement1 } from "./component/Sameelement";
+import Memoreact from "./component/Memoreact";
+import Incorrectmemo from "./component/Incorrectmemo";
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
 
@@ -46,7 +50,12 @@ function App() {
     //   </UserContext.Provider>
     //   </div>
     <div>
-      <Immutability2/>
+      <Incorrectmemo/>
+      {/* <Memoreact/> */}
+    {/* <Grandparent/> */}
+      {/* <Parentchild/>
+      <Child/> */}
+      {/* <Immutability2/> */}
       {/* <Immutability/> */}
       {/* <Usereducer/> */}
       {/* <Renderusestate/> */}
