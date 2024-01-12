@@ -37,6 +37,10 @@ import Parentchild, { Child } from "./component/Parentchild";
 import Sameelement, { Grandparent, Sameelement1 } from "./component/Sameelement";
 import Memoreact from "./component/Memoreact";
 import Incorrectmemo from "./component/Incorrectmemo";
+import { Impure, Impure1 } from "./component/Impure";
+import { Memoprops } from "./component/Memoprops";
+import { Callbackmemo } from "./component/Callbackmemo";
+import { Contextpandc } from "./component/Contextpandc";
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
 
@@ -50,7 +54,11 @@ function App() {
     //   </UserContext.Provider>
     //   </div>
     <div>
-      <Incorrectmemo/>
+      <Contextpandc/>
+      {/* <Callbackmemo/> */}
+      {/* <Memoprops/> */}
+      {/* <Impure/> */}
+      {/* <Incorrectmemo/>  */}
       {/* <Memoreact/> */}
     {/* <Grandparent/> */}
       {/* <Parentchild/>
